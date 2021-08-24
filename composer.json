@@ -24,7 +24,7 @@
     },
     "autoload": {
         "psr-4": {
-          "sgroup\\sitemodule\\": "src/"
+          "sgroup\\sitescripts\\": "src/"
         }
     },
     "extra": {
