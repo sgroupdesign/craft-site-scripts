@@ -120,8 +120,7 @@ class PullController extends Controller
         $localDbUser = getenv('DB_USER');
         $localDbPassword = getenv('DB_PASSWORD');
         $localDbServer = getenv('DB_SERVER');
-        $localDbPort = getenv('DB_PORT');
-        $localDbCreds = "--user='${localDbUser}' --password='${localDbPassword}' ${localDbName} --port=${$localDbPort} --host=${$localDbServer}";
+        $localDbCreds = "--host='${localDbServer}' --user='${localDbUser}' --password='${localDbPassword}' ${localDbName}";
         $localBackupDbPath = './storage/local-backups/';
 
         $remoteDbName = $this->db;
