@@ -1,7 +1,7 @@
 {
     "name": "sgroup/site-scripts",
     "description": "A collection of scripts for Craft CMS development.",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "homepage": "https://github.com/sgroupdesign/craft-site-scripts",
     "license": "MIT",
     "keywords": [
