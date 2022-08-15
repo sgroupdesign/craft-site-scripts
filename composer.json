@@ -1,7 +1,7 @@
 {
     "name": "sgroup/site-scripts",
     "description": "A collection of scripts for Craft CMS development.",
-    "version": "1.0.4",
+    "version": "2.0.0",
     "homepage": "https://github.com/sgroupdesign/craft-site-scripts",
     "license": "MIT",
     "keywords": [
@@ -18,8 +18,8 @@
         "rss": "https://github.com/sgroupdesign/craft-site-scripts/commits/v2.atom"
     },
     "require": {
-        "craftcms/cms": "^3.7.0",
-        "sgroup/site-module": "^1.0.0",
+        "craftcms/cms": "^4.0.0",
+        "sgroup/site-module": "^2.0.0",
         "yiisoft/yii2": "^2.0.0"
     },
     "autoload": {
@@ -29,7 +29,7 @@
     },
     "extra": {
         "name": "Site Scripts",
-        "changelogUrl": "https://raw.githubusercontent.com/sgroupdesign/site-scripts/master/CHANGELOG.md",
+        "changelogUrl": "https://raw.githubusercontent.com/sgroupdesign/craft-site-scripts/craft-4/CHANGELOG.md",
         "class": "sgroup\\sitescripts\\SiteScripts"
     }
 }
