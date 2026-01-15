@@ -145,7 +145,7 @@ class PullController extends Controller
 
         // Pull the DB locally
         $this->stdout("Downloading remote backup of `${remoteDbName}` ... ", Console::FG_YELLOW);
-        exec("scp -P ${remoteSshPort} -- ${remoteSshLogin}:'${tmpDbPath}.gz' '${tmpDbPath}.gz'");
+        exec("scp -O -P ${remoteSshPort} -- ${remoteSshLogin}:'${tmpDbPath}.gz' '${tmpDbPath}.gz'");
         $this->stdout('done' . PHP_EOL, Console::FG_GREEN);
 
         // Backup the local DB
